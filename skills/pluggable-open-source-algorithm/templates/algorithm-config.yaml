@@ -1,0 +1,15 @@
+# Example only. Rename keys and validate them against the selected backend.
+algorithm:
+  backend: third_party
+
+  # Settings with identical semantics across all backends.
+  common:
+    # timeout_ms: 20
+    # deterministic: true
+
+  # Settings understood only by their corresponding implementation.
+  backends:
+    third_party:
+      # library_specific_option: value
+    custom:
+      # custom_algorithm_option: value
