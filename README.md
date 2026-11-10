@@ -6,6 +6,22 @@ The repository focuses on repeatable engineering workflows: understanding a prob
 
 ## Skills
 
+### [Open Source Algorithm Explorer](skills/open-source-algorithm-explorer/SKILL.md)
+
+Quickly and systematically understand an open-source algorithm or repository, from problem definition and mathematical foundations through architecture, source-code execution, experiments, limitations, and reuse opportunities.
+
+The skill covers:
+- Repository reconnaissance, version identification, build system and dependency inspection.
+- Problem definition, inputs/outputs, assumptions, and algorithm intuition.
+- Mathematical foundations, derivations, complexity, and theoretical limitations.
+- Source architecture, core classes, data structures, and extension points.
+- End-to-end source call-chain and data-flow tracing.
+- Build/run instructions, tests, benchmarks, and reproducible experiments.
+- Evidence labels that distinguish verified findings, inferences, and unverified items.
+- Optional reuse and engineering handoff when explicitly requested.
+
+Includes a Quick Mode for a concise first-pass understanding and a reusable analysis report template.
+
 ### [Pluggable Open-Source Algorithm](skills/pluggable-open-source-algorithm/SKILL.md)
 
 Adopt a mature third-party algorithm as a temporary backend while keeping the project free to replace it with an in-house implementation later.
@@ -23,6 +39,11 @@ The skill covers:
 
 ```text
 skills/
+├── open-source-algorithm-explorer/
+│   ├── SKILL.md
+│   └── references/
+│       ├── analysis-report-template.md
+│       └── quick-mode.md
 └── pluggable-open-source-algorithm/
     ├── SKILL.md
     ├── references/
